@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RoundViewPod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'UIView that always has rounded left and right sides .'
 
 # This description is used to generate tags and improve search results.
