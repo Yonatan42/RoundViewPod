@@ -1,0 +1,16 @@
+PODS:
+  - RoundViewPod (0.1.0)
+
+DEPENDENCIES:
+  - RoundViewPod (from `../`)
+
+EXTERNAL SOURCES:
+  RoundViewPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RoundViewPod: ece1395c926adb68fab16825489482f9d1974786
+
+PODFILE CHECKSUM: e9da70f78127529ef77738579a76b5ca1b302a47
+
+COCOAPODS: 1.5.3

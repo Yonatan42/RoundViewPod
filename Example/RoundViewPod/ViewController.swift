@@ -7,17 +7,26 @@
 //
 
 import UIKit
+import RoundViewPod
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var rounded:RoundView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        UIView.animate(withDuration: 20) {
+            self.rounded.frame = CGRect(origin: self.rounded.frame.origin, size: CGSize(width: self.rounded.frame.width / 4, height: self.rounded.frame.height / 3))
+            self.rounded.backgroundColor = UIColor.purple
+            self.rounded.layoutIfNeeded()
+            
+        }
+        
     }
 
 }

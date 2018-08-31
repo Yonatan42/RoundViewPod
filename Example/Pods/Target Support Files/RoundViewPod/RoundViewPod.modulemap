@@ -1,0 +1,6 @@
+framework module RoundViewPod {
+  umbrella header "RoundViewPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

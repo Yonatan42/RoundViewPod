@@ -1,0 +1,6 @@
+framework module Pods_RoundViewPod_Tests {
+  umbrella header "Pods-RoundViewPod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
