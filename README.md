@@ -1,6 +1,6 @@
 # RoundViewPod
 
-[![CI Status](https://img.shields.io/travis/Yonatan Giventer/RoundViewPod.svg?style=flat)](https://travis-ci.org/Yonatan Giventer/RoundViewPod)
+A UIView with left and right sides rounded
 [![Version](https://img.shields.io/cocoapods/v/RoundViewPod.svg?style=flat)](https://cocoapods.org/pods/RoundViewPod)
 [![License](https://img.shields.io/cocoapods/l/RoundViewPod.svg?style=flat)](https://cocoapods.org/pods/RoundViewPod)
 [![Platform](https://img.shields.io/cocoapods/p/RoundViewPod.svg?style=flat)](https://cocoapods.org/pods/RoundViewPod)
